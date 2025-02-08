@@ -1,0 +1,2 @@
+# AgoLauncher
+jsonからmodを構成するmodpackインストーラー
