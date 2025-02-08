@@ -1,0 +1,17 @@
+{
+  "name": "TestModpack",
+  "description": "test!",
+  "version": "1.1.0",
+  "mods": [
+    {
+      "modname": "jei_1.12.2-4.16.1.1013.jar",
+      "comment": "View Items and Recipes",
+      "url": "https://www.curseforge.com/api/v1/mods/238222/files/5846804/download"
+    },
+    {
+      "modname": "AppleSkin-mc1.12-1.0.14.jar",
+      "comment": "Adds various food-related HUD improvements",
+      "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/Tsz4BT2X/AppleSkin-mc1.12-1.0.14.jar"
+    }
+  ]
+}
