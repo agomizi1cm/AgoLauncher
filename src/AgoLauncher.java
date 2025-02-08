@@ -51,7 +51,6 @@ public class AgoLauncher extends Application {
     }
 
 
-    // デフォルト設定値
     private static final String DEFAULT_INSTALL_PATH = System.getProperty("user.home") + "\\Desktop";
 
     public static Label modpackVersion;
@@ -134,7 +133,7 @@ public class AgoLauncher extends Application {
         saveConfig("modpack_url", url);
 
         ProgressWindow progressWindow = new ProgressWindow();
-        progressWindow.show(); // 進捗ウィンドウを表示
+        progressWindow.show();
 
         new Thread(() -> {
             try {
